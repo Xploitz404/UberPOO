@@ -1,3 +1,7 @@
 public class Payment {
-    int payment;
+    int id;
+
+    public Payment (int id) {
+        this.id = id;
+    }
 }
